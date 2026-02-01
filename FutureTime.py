@@ -26,7 +26,7 @@ def main():
   #Do not use any if statements in calculating the time.
 
   #Output the future time in standard format "HH:MM"
-  print("In " + str(inputHours) + " hours and " + str(inputMinutes) + " the time will be " + str(futureHour).zfill(2) + ":" + str(futureMinute).zfill(2))
+  print("In " + str(inputHours) + " hours and " + str(inputMinutes) + " minutes the time will be " + str(futureHour).zfill(2) + ":" + str(futureMinute).zfill(2))
 
 
 if __name__ == '__main__':
